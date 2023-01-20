@@ -1,5 +1,4 @@
 {
-  "homepage": "http://SapheSab3r.github.io/anqi-portfolio",
   "name": "anqi-portfolio",
   "version": "0.1.0",
   "private": true,
@@ -18,8 +17,6 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -43,7 +40,6 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^5.0.0",
     "react-scripts": "^5.0.1",
     "sass": "^1.57.1"
   }
