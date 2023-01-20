@@ -1,0 +1,13 @@
+.aboutPage-container{
+    position: relative;
+    top: 5rem;
+    height: calc(100vh - 65px);
+    font-size: larger;
+    
+    .aboutInfo-container{
+        display: block;
+        background-color: rgb(125, 216, 216);
+        margin-left: 4rem;
+        margin-right: 4rem;
+    }
+}

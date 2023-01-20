@@ -1,0 +1,37 @@
+.arrow-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 33rem;
+    position: relative;
+  }
+  
+  .arrow-p {
+    width: 25px;
+    height: 25px;
+    border-bottom: 3px solid #fff;
+    border-right: 3px solid #fff;
+    transform: rotate(45deg);
+    animation: move 1.3s infinite;
+    margin: -3px;
+  }
+  
+  @for $i from 1 through 2 {
+    .arrow:nth-child(#{$i + 1}) {
+      animation-delay: 0.15 * $i + s;
+    }
+  }
+  
+  @keyframes move {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+      transform: translateY(40px) rotate(45deg);
+    }
+  }

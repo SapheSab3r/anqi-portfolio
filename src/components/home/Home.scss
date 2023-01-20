@@ -1,0 +1,122 @@
+@import url(https://fonts.googleapis.com/css?family=Inter);
+@import url(https://fonts.googleapis.com/css?family=Jockey+One);
+@import url(https://fonts.googleapis.com/css?family=Merriweather);
+
+
+.home{
+  height: 100vh;
+  background-color: #192E4D;
+  color: #D62839;
+  font-size: 20px;
+}
+
+.home-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 9rem;
+  
+}
+
+.home-container::after{
+  color:RGB(69,123,157,0.1);
+  font-family: 'Jockey One';
+  content: attr(data-bg-text);
+  display: block;
+  font-size: 36rem;
+  transform: scale(1, 1.3);
+  line-height: 1;
+  bottom: 60px;
+  position: absolute;
+}
+
+.name-box {
+  display: flex;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  z-index: 6;
+}
+  
+.name {
+  color: #ffffff;
+  font-family: 'Jockey One';
+  font-size: 85px;
+}
+  
+.intro{
+  font-family: 'Merriweather', sans-serif;
+  font-weight: lighter;
+  color: #ffffff;
+  font-size: 16px;
+  margin-left: 30rem;
+  margin-right: 30rem;
+  line-height: 180%;
+  z-index: 6;
+}
+
+.intro-text{
+  font-family: 'Merriweather';
+  font-weight: 100;
+  text-align: center;
+  align-items: center;
+}
+
+.span-bold{
+  font-weight: 800;
+}
+  
+
+.arrow {
+  margin-top: 10rem;
+  width: 8px;
+  height: 45px;
+  position: relative;
+  margin-bottom: 100px;
+  z-index: 6;
+}
+
+.arrow:hover {
+  cursor: pointer;
+}
+
+.line {
+  position: absolute;
+  width: 3px;
+  height: 00px;
+  top: 0;
+  bottom: initial;
+  background-color: #ffffff;
+  animation: line-animation 2.5s ease-in-out 0s infinite normal; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.line::before {
+  content: '   ';
+  width: 20px;
+  height: 20px;
+  border-right: 4px solid #ffffff;
+  border-bottom: 4px solid #ffffff;
+  transform: rotate(45deg);
+  display: block;
+  position: absolute;
+  bottom: 0;
+  animation: arrow-animation 2.5s ease-in-out 0s infinite normal; 
+}
+
+@keyframes line-animation {
+  0% {height: 0px; top: 0px; opacity: 0;}
+  50% {height: 80px; top: 0px; opacity: 1;}
+  100% {height: 0px; top: 80px; opacity: 0;}
+}
+
+@keyframes arrow-animation {
+  0% {opacity: 0}
+  50% {opacity: 1}
+  100% {opacity: 0}
+}

@@ -1,0 +1,35 @@
+.footer{
+    background-color: #192E4D;
+}
+
+.footer-container{
+    margin: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    color: #ffffff;
+    align-items: center;
+}
+
+.large-text{
+    font-size: 30px;
+    font-family: 'Jockey One';
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.connect{
+    margin-left: 3rem;
+    margin-right: 0.5rem;
+}
+
+.connect:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color: RGB(255,255,255,0.8);
+    transition: all .8s linear;
+}
+
+.my-name{
+    display: flex;
+    margin-left: 45rem;
+}
