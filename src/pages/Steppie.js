@@ -3,6 +3,7 @@ import Navbar from '../components/navbar/Navbar';
 import './AllProjects.scss'
 import Scroll from './Scroll'
 import SteppieCover from '../images/SteppieCover.png'
+import Svideo from '../video/SteppieFitnessAppDemo.mp4';
 
 
 export default function Steppie() {
@@ -52,8 +53,7 @@ export default function Steppie() {
             </div>
             <div className="body-context">
             <h3 className="title">Video Demo</h3>
-              <iframe width="420" height="315"
-              src="https://www.youtube.com/watch?v=v6m7l1oPlUw" controls='true' className='video'/>
+            <video src={Svideo} width='720px' controls='true' className='video'></video>
 
             </div>
             <div className="body-context">
