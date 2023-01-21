@@ -52,6 +52,8 @@ export default function Steppie() {
             </div>
             <div className="body-context">
             <h3 className="title">Video Demo</h3>
+              <iframe width="420" height="315"
+              src="https://www.youtube.com/watch?v=v6m7l1oPlUw" controls='true' className='video'/>
 
             </div>
             <div className="body-context">
