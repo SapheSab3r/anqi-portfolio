@@ -53,7 +53,9 @@ export default function Steppie() {
             </div>
             <div className="body-context">
             <h3 className="title">Video Demo</h3>
-            <video src={Svideo} width='720px' controls='true' className='video'></video>
+            <div  className="video-container">
+            <video src={Svideo} width='520px' controls='true' className='video'></video>
+            </div>
 
             </div>
             <div className="body-context">
