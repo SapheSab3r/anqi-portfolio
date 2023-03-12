@@ -1,4 +1,5 @@
-import React from 'react'
+import React, {useEffect} from 'react'
+import { useLocation } from "react-router-dom";
 import Navbar from '../components/navbar/Navbar';
 import './AllProjects.scss';
 import Scroll from './Scroll';
@@ -8,6 +9,13 @@ import Pvideo from '../video/plantsVSzombiesDemo.mp4';
 
 export default function PvsZ() {
   const VideoSrc = Pvideo;
+  const routePath = useLocation();
+  const onTop = () => {
+    window.scrollTo(0, 0);
+  }
+  useEffect(() => {
+    onTop()
+  }, [routePath]);
 
   return (
     <div>

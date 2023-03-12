@@ -14,7 +14,7 @@ export default function Navbar() {
             <div className='links'>
                 <HashLink to='#project' smooth className='nav project'>Project</HashLink>
                 <HashLink to='#about' smooth className='nav'>About</HashLink>
-                <Link className='nav' href='/'>Resume</Link>
+                <Link to='../files/Anqi_Resume2023.pdf' className='nav' target="_blank" >Resume</Link>
             </div>
         </div>
     );

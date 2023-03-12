@@ -38,7 +38,7 @@ const GalleryData = [
     {
         id: 5,
         title: "Steppie UI Design",
-        image: "img/websiteV2.png",
+        image: "img/Steppis.jpg",
         year: "Jan.2023 - Present",
         role: ["UI Designer"],
         type: ["UI/UX"],
