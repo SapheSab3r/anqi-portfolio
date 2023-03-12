@@ -1,7 +1,7 @@
 import './Navbar.scss';
 import React from 'react';
 import {Link} from 'react-router-dom';
-
+import resume from '../files/Resume2023.pdf'
 import { HashLink } from 'react-router-hash-link';
 
 export default function Navbar() {
@@ -14,7 +14,7 @@ export default function Navbar() {
             <div className='links'>
                 <HashLink to='#project' smooth className='nav project'>Project</HashLink>
                 <HashLink to='#about' smooth className='nav'>About</HashLink>
-                <Link to='../files/Anqi_Resume2023.pdf' className='nav' target="_blank" >Resume</Link>
+                <a href={resume} className='nav' target='blank' >Resume</a>
             </div>
         </div>
     );
