@@ -4,6 +4,8 @@ import './AboutPage.scss'
 import me1 from '../images/me1.jpg'
 import me2 from '../images/me2.jpg'
 import me3 from '../images/me3.jpg'
+import me4 from '../images/me4.jpg'
+import me5 from '../images/me5.jpg'
 
 export default function AboutPage() {
   return (
@@ -26,9 +28,12 @@ export default function AboutPage() {
               I would call myself a "third-culture kid". I was born in China, spending my kindergarden and elementary years in two different cities, Huaibei and Suzhou. Then, I moved with my parents to Kuala Lumpur, Malaysia for my middle school and high school years. 
             </p>
 
+            <img src={me4} alt="Photo of Anqi inside Masjid Wilayah Persekutuan" className='me4-pic'/>
+
             </div>
 
             <div className="right">
+            <img src={me5} alt="Photo of Anqi inside Masjid Wilayah Persekutuan" className='me5-pic'/>
             <p className="p2">
               Sports or games that involve physical movements and team collaboration are my favorite go-to activities during my free time. I have almost tried all of the sports that were listed in my middle school and high school, like Badminton, basketball, alternate frisbee, touch, and other sports. I won't claim that I am great in sports in general, but I would say it is the best way for me to be able to relax.
               In college, I fell in love with a new physical activity that can help me relax: weight training.

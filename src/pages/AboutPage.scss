@@ -5,6 +5,7 @@ $brightRed: #D62839;
 .aboutPage-container{
     position: relative;
     top: 5rem;
+    
     height: calc(100vh - 65px);
     font-size: larger;
     
@@ -12,6 +13,7 @@ $brightRed: #D62839;
         display: block;
         margin-left: 5rem;
         margin-right: 5rem;
+        padding-bottom: 5rem;
     }
 
     .more-about{
@@ -31,7 +33,7 @@ $brightRed: #D62839;
     .left, .right{
         display: flex;
 
-        .me1-pic, .me2-pic, .me3-pic{
+        .me1-pic, .me2-pic, .me3-pic, .me4-pic, .me5-pic{
             margin-right: 0.5rem;
             margin-top: 1.5rem;
             margin-bottom: 1.5rem;
@@ -45,12 +47,24 @@ $brightRed: #D62839;
             width: auto;
         }
 
-        .p1, .p2, .p4{
+        .me4-pic{
+            height: 240px;
+            width: auto;
+        }
+
+        .me5-pic{
+            height: 240px;
+            width: auto;
+        }
+
+        .p1, .p2, .p3{
             margin-top: 1.5rem;
             margin-right: 1rem;
             margin-left: 1rem;
         }
+
     }
+
 
 
 }
