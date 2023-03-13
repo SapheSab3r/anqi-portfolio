@@ -24,7 +24,7 @@ const GalleryData = [
         year: "Mar.2022 - Apr.2022",
         role: ["Back end developer", "UI Designer", "Front end developer"],
         type: ["Website", "UI/UX"],
-        desc: "First iteration of my personal website built with HTML, CSS & JS hosted on Github."
+        desc: "First iteration of my website built with HTML, CSS & JS and hosted on Github."
     },
     {
         id: 4,
@@ -33,13 +33,13 @@ const GalleryData = [
         year: "Jan.2023 - Present",
         role: ["Back end developer", "UI Designer", "Front end developer"],
         type: ["Website", "UI/UX"],
-        desc: "Built a simple tetris game using Python."
+        desc: "Version 2 of my portfolio website built with ReactJS."
     },
     {
         id: 5,
         title: "Steppie UI Design",
         image: "img/Steppis.jpg",
-        year: "Jan.2023 - Present",
+        year: "Mar.2022 - Apr.2022",
         role: ["UI Designer"],
         type: ["UI/UX"],
         desc: "Designed a Pittsburgh Mascot & a potential mobile app for usage."

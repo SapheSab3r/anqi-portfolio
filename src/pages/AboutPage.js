@@ -10,10 +10,10 @@ export default function AboutPage() {
       <div className="aboutPage-container">
         <div className="aboutInfo-container">
         <h2 className="more-about">
-          More About Me
+          A Bit More About Me
         </h2>
+        
 
-        Born in China and spent many years aboard, I would 
         
         </div>
 

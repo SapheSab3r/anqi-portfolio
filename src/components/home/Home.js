@@ -1,5 +1,6 @@
 import React from 'react';
 import './Home.scss';
+import { HashLink } from 'react-router-hash-link';
 
 export default function Home() {
     return ( 
@@ -17,9 +18,9 @@ export default function Home() {
                     </div>
                 </div>
 
-                <div className="arrow" href='#projects'>
+                <HashLink className="arrow" to='#project' smooth>
                     <div className="line" ></div>
-                </div>
+                </HashLink>
 
             </div>
 
