@@ -28,15 +28,37 @@ export default function WebsiteV1() {
         <div className="main-cover">
           <Scroll/>
         </div>
-        <h2 className="project-name">Personal Website Version 1</h2>
+        <h1 className="project-name">Personal Website Version 1</h1>
         <div className="body-container">
           <div className="body-intro">
+            
             <div className="body-left">
-              <h3 className="left-heading">Overview</h3>
+              <div className="body-intro">
+
+
+                <div className="duration">
+                  <h3 className="dur">
+                    <span className="dur-bold">
+                    DURATION:
+                    </span> Mar.2022 - May 2022</h3>
+                </div>
+
+                <div className="duration">
+                  <h3 className="dur">
+                    <span className="dur-bold">
+                    LINK: 
+                    </span>
+                    <a href="https://saphesab3r.github.io/AnqiChenWebsite/"> Website Link</a>
+                  </h3>
+                </div>
+
+              </div>
+              <h2 className="left-heading">Overview</h2>
              
             </div>
 
             <div className="body-right">
+
               <h3 >Methods</h3>
               <div className="block-names">
                 <div className="block">Wireframing</div>
@@ -62,10 +84,6 @@ export default function WebsiteV1() {
               </div>
           </div>
 
-
-            </div>
-            <div className="body-context">
-            <h3 className="title">Visit the Website</h3>
 
             </div>
             <div className="body-context">
