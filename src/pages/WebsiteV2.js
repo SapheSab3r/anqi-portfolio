@@ -40,7 +40,6 @@ export default function WebsiteV2() {
               <h3 >Methods</h3>
               <div className="block-names">
                 <div className="block">Wireframing</div>
-                <div className="block">Full-Stack Development</div>
 
               </div>
 
@@ -53,6 +52,15 @@ export default function WebsiteV2() {
                 </div>
 
             </div>
+
+              <div className="body-right">
+                <h3 className="title">Roles</h3>
+                <div className="block-names">
+                <div className="block">Full-Stack Development</div>
+                <div className="block">Web Designer</div>
+                </div>
+
+              </div>
           </div>
 
 

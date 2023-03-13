@@ -39,7 +39,7 @@ export default function PvsZ() {
             </div>
 
             <div className="body-right">
-            <h3 >Method</h3>
+            <h3 >Role</h3>
             <div className="block-names">
               <div className="block">Full-Stack Development</div>
 
@@ -60,7 +60,7 @@ export default function PvsZ() {
             <div className="body-context">
             <h3 className="title">Reflection</h3>
             <div>
-            It took me around two weeks to complete this project. 
+            It took me around two weeks to complete this project. I split the work into three stages: working-stage (general game elements set up complete and the game is playable with some bugs), MVP (Implementing the corn-catapult and ensuring the Day-Time Mode is complete), and Final Stage (Implementing the Nigh mode and all features are working in the game with no bugs). 
 
             </div>
             

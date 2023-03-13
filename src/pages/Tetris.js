@@ -36,7 +36,7 @@ export default function Tetris() {
             </div>
 
             <div className="body-right">
-            <h3 className="left-heading">Methods</h3>
+            <h3 className="left-heading">Role</h3>
             <diiv className="block-names">
               <div className="block">Full-Stack Development</div>
 

@@ -3,6 +3,7 @@
     top: 4rem;
     height: calc(100vh - 65px);
     font-size: larger;
+    
 }
 
 .main-cover{
@@ -15,6 +16,10 @@
     margin-top: 3em;
     margin-inline-start: 10rem;
     margin-inline-end: 5px;
+}
+
+.body-container {
+    padding-bottom: 10rem;
 }
 
 .body-intro{
@@ -70,6 +75,7 @@
     font-weight: 400;
     margin-inline-start: 10rem;
     margin-inline-end: 5px;
+
 
     .title{
         margin-top: 5px;
