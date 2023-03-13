@@ -1,3 +1,7 @@
+$darkBlue: #192E4D;
+$lightBlue: #506a7a;
+$brightRed: #D62839;
+
 .aboutPage-container{
     position: relative;
     top: 5rem;
@@ -6,8 +10,47 @@
     
     .aboutInfo-container{
         display: block;
-        background-color: rgb(125, 216, 216);
-        margin-left: 4rem;
-        margin-right: 4rem;
+        margin-left: 5rem;
+        margin-right: 5rem;
     }
+
+    .more-about{
+        padding-top: 2rem;
+        color: $darkBlue;
+    }
+
+    .p1, .p2, .p3, .p4{
+        color:$darkBlue;
+    }
+
+    .me {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .left, .right{
+        display: flex;
+
+        .me1-pic, .me2-pic, .me3-pic{
+            margin-right: 0.5rem;
+            margin-top: 1.5rem;
+            margin-bottom: 1.5rem;
+            width: 180px;
+            border: #192E4D solid;
+            border-radius: 5px;
+        }
+
+        .me3-pic{
+            height: 240px;
+            width: auto;
+        }
+
+        .p1, .p2, .p4{
+            margin-top: 1.5rem;
+            margin-right: 1rem;
+            margin-left: 1rem;
+        }
+    }
+
+
 }
