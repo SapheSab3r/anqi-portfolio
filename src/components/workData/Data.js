@@ -4,7 +4,7 @@ const GalleryData = [
         title: "Plants vs. Zombie Clone",
         image: 'img/PvsZ.jpg',
         year: "Jun.2021 - Jul.2021",
-        role: ["Back end developer"],
+        role: ["Back-end developer"],
         type: ["Coding"],
         desc: "Built a tower-defense game using Python"
     },
@@ -13,7 +13,7 @@ const GalleryData = [
         title: "Tetris Clone",
         image: 'img/tetris.jpg',
         year: "Jun.2021 - Jul.2021",
-        role: ["Back end developer"],
+        role: ["Back-end developer"],
         type: ["Coding"],
         desc: "Built a simple tetris game using Python"
     },
@@ -22,7 +22,7 @@ const GalleryData = [
         title: "Personal Website V1",
         image: 'img/websiteV1.png',
         year: "Mar.2022 - Apr.2022",
-        role: ["Back end developer", "UI Designer", "Front end developer"],
+        role: ["Front end developer", "UI Designer"],
         type: ["Website", "UI/UX"],
         desc: "First iteration of my website built with HTML, CSS & JS and hosted on Github."
     },
@@ -31,7 +31,7 @@ const GalleryData = [
         title: "This Website",
         image: "img/websiteV2.png",
         year: "Jan.2023 - Present",
-        role: ["Back end developer", "UI Designer", "Front end developer"],
+        role: ["Front-end developer", "UI Designer", "Back-end developer" ],
         type: ["Website", "UI/UX"],
         desc: "Version 2 of my portfolio website built with ReactJS."
     },
