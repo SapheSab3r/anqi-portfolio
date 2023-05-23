@@ -1,106 +1,102 @@
 $darkBlue: #192E4D;
 $lightBlue: #506a7a;
 $brightRed: #D62839;
+$dark: rgba(0, 0, 0, 0.85);
 
-.main-container{
+.main-container {
     position: relative;
-    top: 4rem;
     height: calc(100vh - 65px);
     font-size: larger;
-    
-}
+    margin-left: 5rem;
+    margin-right: 5rem;
+    color: $dark;
 
-.main-cover{
-    height: 95%;
-}
+    hr {
+        margin-top: 4rem;
+        background: rgba(0, 0, 0, 0.25);
+        border: 0;
+        height: 2px;
+        display: block;
+    }
 
-.project-name{
-    position: relative;
-    margin: 1rem;
-    margin-top: 2em;
-    margin-bottom: 10px;
-    margin-inline-start: 10rem;
-    margin-inline-end: 5px;
-}
+    .project-name {
+        padding-top: 10rem;
+        margin-bottom: 10px;
+        text-align: center;
+        line-height: 0.9;
+        font-size: 3.6rem;
+    }
 
-.body-container {
-    padding-bottom: 10rem;
-}
+    .summary {
+        margin-top: 5rem;
+        justify-content: center;
+        align-items: center;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 10px;
 
-.body-intro{
-    display: grid;
-    grid-auto-columns: 2fr;
-    margin-top: 5px;
-    margin-right: 40px;
-    grid-column-gap: 60px;
-    grid-template-columns: 1.5fr 1fr;
-}
 
-.body-left{
-    display: inline;
-    margin-top: 0px;
-    font-size: 16px;
-    line-height: 36px;
-    font-weight: 400;
-    margin-inline-start: 10rem;
-    margin-inline-end: 5px;
+        .col {
+            padding: 0 4px;
+            justify-content: space-around;
 
-    .dur{
-        color:$darkBlue;
 
-        .dur-bold{
-            color: $darkBlue;
-            font-weight: bold;
+            @media screen and (max-width: 800px) {
+                grid-template-columns: repeat(2, 1fr);
+                justify-content: space-around;
+            }
+
+            @media screen and (max-width: 600px) {
+                grid-template-columns: repeat(1, 1fr);
+                justify-content: space-around;
+            }
+
+            h3 {
+                font-size: 1em;
+                text-align: center;
+                text-transform: uppercase;
+                margin-bottom: 1rem;
+            }
+
+            p {
+                text-align: center;
+                font-size: 14px;
+                padding: 0 10px;
+                color: $dark;
+            }
         }
     }
-}
 
-.body-right{
-    display: inline;
-    margin-top: 0px;
-    font-size: 16px;
-    line-height: 36px;
-    margin-inline-start: 3rem;
-    margin-inline-end: 5px;
-
-    .block-names{
+    .body-container {
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+        align-items: flex-start;
         display: flex;
-        flex-direction: row;
 
-        .block{
-            font-size: 14px;
-            color: 'black' ;
-            padding: 0.4em;
-            background-color: rgb(226, 227, 227);
-            width: fit-content;
-            margin-right: 0.8rem;
-            margin-top: 0.2rem;
-            border-radius: 0.5rem;
+        .body-left {
+            line-height: 36px;
+            font-weight: 400;
+            padding-left: 5%;
+
+            .left-heading {
+                font-size: 32px;
+            }
+        }
+
+        .body-right {
+            font-size: 16px;
+            line-height: 36px;
+            margin-left: 20%;
+            margin-right: 5%;
+
+            p {
+                color: $dark;
+            }
         }
     }
-
 }
 
-.body-context{
-    display: block;
-    margin-top: 2rem;
-    font-size: 16px;
-    line-height: 36px;
-    font-weight: 400;
-    margin-inline-start: 10rem;
-    margin-inline-end: 5px;
 
-
-    .title{
-        margin-top: 5px;
-        display: inline;
-    }
-
-    .video-container{
-        margin-top: 1rem;
-    }
-
-    .video{
-        border-radius: 15px;
-    }
+.video {
+        border-radius: 10px;
 }
