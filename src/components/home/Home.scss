@@ -20,7 +20,7 @@
 }
 
 .home-container::after{
-  color:RGB(69,123,157,0.1);
+  color:RGB(69,123,157,0.06);
   font-family: 'Jockey One';
   content: attr(data-bg-text);
   display: block;

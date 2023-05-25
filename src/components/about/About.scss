@@ -1,10 +1,10 @@
-.about{
-    background-color: #457B9D;
+.about {
+    background-color: #5875A0;
     position: relative;
 }
 
-.about-container::after{
-    color:RGB(25,46,77,0.1);
+.about-container::after {
+    color: RGB(170, 209, 254, 0.06);
     font-family: 'Jockey One';
     content: attr(data-bg-about);
     display: block;
@@ -18,7 +18,7 @@
     bottom: 90px;
 }
 
-.heading{
+.heading {
     margin-top: 3rem;
     align-items: center;
     text-align: center;
@@ -27,19 +27,19 @@
     font-size: 35px;
 }
 
-.info{
+.info {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     justify-content: space-evenly;
 }
 
-.info-button{
+.info-button {
     display: flex;
     flex-direction: column;
 }
 
-.info-container{
+.info-container {
     background-color: #192E4D;
     display: flex;
     flex-direction: row;
@@ -54,14 +54,14 @@
     z-index: 5;
 }
 
-p{
+p {
     display: block;
     color: #ffffff;
     line-height: 180%;
     font-family: 'Inter';
 }
 
-.photo{
+.photo {
     position: relative;
     margin: 2rem;
     width: 16.8rem;
@@ -71,8 +71,8 @@ p{
     border: 2px solid #192E4D;
 }
 
-.frame{
-    position:absolute;
+.frame {
+    position: absolute;
     right: 8.5rem;
     top: 9.1rem;
     border: 4px solid #D62839;
@@ -83,13 +83,13 @@ p{
 }
 
 
-.photo::before{
+.photo::before {
     border-width: 3px;
     border-color: #506a7a;
 
 }
 
-.view-more{
+.view-more {
     display: inline-block;
     background-color: #D62839;
     color: white;
@@ -104,9 +104,9 @@ p{
     text-decoration: none;
 }
 
-.view-more:hover{
+.view-more:hover {
     cursor: pointer;
-    background-color: RGB(214,40,57,0.5);
+    background-color: RGB(214, 40, 57, 0.5);
     color: #ffffff;
     transition: all 0.5s ease-out;
 }
@@ -115,4 +115,3 @@ p{
     font-weight: 500;
     text-decoration: none;
 }
-

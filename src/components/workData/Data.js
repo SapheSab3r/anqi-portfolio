@@ -6,6 +6,7 @@ const GalleryData = [
         year: "Jun.2021 - Jul.2021",
         role: ["Back-end developer"],
         type: ["Coding"],
+        tag:["Python", "Game Project"],
         desc: "Built a tower-defense game using Python"
     },
     {
@@ -15,6 +16,7 @@ const GalleryData = [
         year: "Jun.2021 - Jul.2021",
         role: ["Back-end developer"],
         type: ["Coding"],
+        tag:["Python", "Game Project"],
         desc: "Built a simple tetris game using Python"
     },
     {
@@ -24,6 +26,7 @@ const GalleryData = [
         year: "Mar.2022 - Apr.2022",
         role: ["Front end developer", "UI Designer"],
         type: ["Website", "UI/UX"],
+        tag:["UI Design", "Website Design"],
         desc: "First iteration of my website built with HTML, CSS & JS and hosted on Github."
     },
     {
@@ -31,21 +34,33 @@ const GalleryData = [
         title: "This Website",
         image: "img/websiteV2.png",
         year: "Jan.2023 - Present",
-        role: ["Front-end developer", "UI Designer", "Back-end developer" ],
+        role: ["Front-end developer", "UI Designer", "Back-end developer"],
         type: ["Website", "UI/UX"],
+        tag:["UI Design"],
         desc: "Version 2 of my portfolio website built with ReactJS."
     },
     {
         id: 5,
         title: "Steppie UI Design",
-        image: "img/Steppis.jpg",
+        image: "img/Steppie.jpg",
         year: "Mar.2022 - Apr.2022",
         role: ["UI Designer"],
         type: ["UI/UX"],
+        tag:["UI Designer", "Research"],
         desc: "Designed a Pittsburgh Mascot & a potential mobile app for usage."
     },
+    {
+        id: 6,
+        title: "VOAD",
+        image: "img/VOAD.png",
+        year: "Mar.2023 - Apr.2023",
+        role: ["UI/UX Designer"],
+        type: ["UI/UX"],
+        tag:["UX Design", "Journey Map", "Accessibility"],
+        desc: "Designed a Voice Operated Assistant for Delivery."
+    },
 
-  
+
 ]
 
 export default GalleryData;

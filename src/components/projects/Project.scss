@@ -10,6 +10,18 @@ $brightRed: #D62839;
     margin-bottom: 2rem;
 }
 
+.project-container::after{
+    color:RGB(88,117,160,0.06);
+    font-family: 'Jockey One';
+    content: attr(data-bg-text);
+    display: block;
+    font-size: 20rem;
+    transform: scale(1, 1);
+    line-height: 1;
+    bottom: 30px;
+    position: absolute;
+  }
+
 .filter-container {
     display: flex;
     flex-direction: row;
@@ -248,13 +260,23 @@ $brightRed: #D62839;
     text-align: center;
 }
 
+.item-type{
+    display: flexbox;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    margin: 0.5rem;
+}
+
 .type-render {
     display: inline-block;
     padding: .35em .65em;
     font-size: .75em;
+    margin-bottom: 0.4rem;
     margin-right: 0.4rem;
     font-weight: 700;
     line-height: 1;
+    font-size: 14px;
     color: #fff;
     text-align: center;
     white-space: nowrap;

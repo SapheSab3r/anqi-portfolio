@@ -7,6 +7,7 @@ import Steppie from './pages/Steppie'
 import WebsiteV2 from './pages/WebsiteV2'
 import WebsiteV1 from './pages/WebsiteV1'
 import Tetris from './pages/Tetris'
+import Voad from './pages/Voad'
 
 import {
   createBrowserRouter,
@@ -43,6 +44,10 @@ const router = createBrowserRouter([
   {
     path: "/project/5",
     element: <Steppie />,
+  },
+  {
+    path: "/project/6",
+    element: <Voad />,
   },
 
 ]);

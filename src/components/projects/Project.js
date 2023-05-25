@@ -14,7 +14,7 @@ export default function Project() {
 
   return (
     <section className='projects' id='project'>
-      <div className="project-container">
+      <div className="project-container" data-bg-about="PROJECT">
         <div className="heading-project">Projects</div>
 
         <div className="selection">
@@ -43,7 +43,7 @@ export default function Project() {
 
                   </div>
                   <div className="item-type">
-                    {item.type.map((type) => (
+                    {item.tag.map((type) => (
                       <div className="type-render">{type}</div>
                     ))}
                   </div>
@@ -51,7 +51,7 @@ export default function Project() {
 
 
 
-                  <Link to={`/project/${item.id}`} className="click-more">Learn More</Link>
+                  <Link to={`/project/${item.id}`} className="click-more">View Project</Link>
                 </div>
 
               </div>
