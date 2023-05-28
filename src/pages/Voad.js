@@ -4,6 +4,11 @@ import Navbar from '../components/navbar/Navbar';
 import './AllProjects.scss';
 import Kai from '../images/Voad/Kai.png';
 import Route from '../images/Voad/route.png';
+import Journey from '../images/Voad/Journey.png';
+import Milestone3 from '../mp3/milestone3.mp3';
+import Milestone2 from '../mp3/milestone2.mp3';
+import Milestone1 from '../mp3/milestone1.mp3';
+import M011 from '../images/Voad/01';
 
 
 export default function Voad() {
@@ -104,9 +109,43 @@ export default function Voad() {
               <h4>Milestone 03 - End</h4>
               <p>After Kai finishes all of her deliveries, the CUI will ask her if she is ready to take a few more deliveries, if so, how many extras is she comfortable taking. CUI will also be checking in on the fuel condition of Kai’s SUV, If Kai is low on gas, the CUI will direct her to the nearest gas station. If Kai would like to go home, CUI will be providing two options: One is to navigate Kai straight to her house, or she could potentially complete some deliveries along the way home. Finally, when Kai arrives home, the voice assistant will give a brief summary on what Kai did for the day (Numbers of deliveries, time she drove and miles the drove etc.).</p>
               <br></br>
+            </div>
+          </div>
+        </div>
+
+
+        <hr></hr>
+        <div className="body-container">
+          <div className="body-left">
+            <h2 className="left-heading">Journey Map.</h2>
+          </div>
+
+          <div className="body-right">
+            <div className="para">
+              <img id="journey-img" src={Journey} alt="User Journey Map" />
+
+              <a id="journey" href="https://drive.google.com/file/d/1x4YyoN17-8IBWHEDpYoIBJaw8sF8g9ZF/view?usp=sharing" target='blank'>Link to the Journey Map</a>
 
             </div>
           </div>
+
+        </div>
+
+        <hr></hr>
+        <div className="body-container">
+          <div className="body-left">
+            <h2 className="left-heading">Implementation.</h2>
+          </div>
+
+          <div className="body-right">
+            <div className="para">
+              <h4>Milestone 01</h4>
+              <img id="journey-img" src={M011} alt="Milestone 01 voiceflow implementation" />
+
+
+            </div>
+          </div>
+
         </div>
 
         <hr></hr>
@@ -115,9 +154,35 @@ export default function Voad() {
             <h2 className="left-heading">Voice Demo.</h2>
           </div>
 
+
           <div className="body-right">
             <div className="para">
+              <h3>Milestone 1</h3>
+              <br></br>
+              <audio controls>
+                <source src={Milestone1} type="audio/mpeg" />
+                Your browser does not support the audio element.
+              </audio>
+              <br></br>
+              <br></br>
+              <br></br>
 
+              <h3>Milestone 2</h3>
+              <br></br>
+              <audio controls>
+                <source src={Milestone2} type="audio/mpeg" />
+                Your browser does not support the audio element.
+              </audio>
+              <br></br>
+              <br></br>
+              <br></br>
+
+              <h3>Milestone 3</h3>
+              <br></br>
+              <audio controls>
+                <source src={Milestone3} type="audio/mpeg" />
+                Your browser does not support the audio element.
+              </audio>
             </div>
           </div>
 

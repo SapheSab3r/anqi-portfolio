@@ -113,8 +113,19 @@ $dark: rgba(0, 0, 0, 0.85);
     border-radius: 10px;
 }
 
-#kai-img{
+#kai-img {
     width: 30%;
     height: auto;
     border-radius: 2px;
+}
+
+#journey-img {
+    display: flex;
+    width: 115%;
+    height: auto;
+    border-radius: 2px;
+}
+
+#journey{
+    color: #55A99F;
 }
