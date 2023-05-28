@@ -7,8 +7,11 @@ import Route from '../images/Voad/route.png';
 import Journey from '../images/Voad/Journey.png';
 import Milestone3 from '../mp3/milestone3.mp3';
 import Milestone2 from '../mp3/milestone2.mp3';
+import Milestone22 from '../mp3/milestone2ver2.mp3';
 import Milestone1 from '../mp3/milestone1.mp3';
-import M011 from '../images/Voad/01';
+import M01 from '../images/Voad/01.png';
+import M02 from '../images/Voad/02.png';
+import M03 from '../images/Voad/03.png';
 
 
 export default function Voad() {
@@ -124,7 +127,7 @@ export default function Voad() {
             <div className="para">
               <img id="journey-img" src={Journey} alt="User Journey Map" />
 
-              <a id="journey" href="https://drive.google.com/file/d/1x4YyoN17-8IBWHEDpYoIBJaw8sF8g9ZF/view?usp=sharing" target='blank'>Link to the Journey Map</a>
+              <a className="journey" href="https://drive.google.com/file/d/1x4YyoN17-8IBWHEDpYoIBJaw8sF8g9ZF/view?usp=sharing" target='blank'>Link to the Journey Map</a>
 
             </div>
           </div>
@@ -140,10 +143,15 @@ export default function Voad() {
           <div className="body-right">
             <div className="para">
               <h4>Milestone 01</h4>
-              <img id="journey-img" src={M011} alt="Milestone 01 voiceflow implementation" />
-
-
+              <img src={M01} alt="Milestone 01 voiceflow implementation" />
+              <br></br>
+              <h4>Milestone 02</h4>
+              <img src={M02} alt="Milestone 02 voiceflow implementation" />
+              <br></br>
+              <h4>Milestone 03</h4>
+              <img src={M03} alt="Milestone 03 voiceflow implementation" />
             </div>
+  
           </div>
 
         </div>
@@ -176,6 +184,15 @@ export default function Voad() {
               <br></br>
               <br></br>
               <br></br>
+              <h3>Milestone 2 Demo 2</h3>
+              <br></br>
+              <audio controls>
+                <source src={Milestone22} type="audio/mpeg" />
+                Your browser does not support the audio element.
+              </audio>
+              <br></br>
+              <br></br>
+              <br></br>
 
               <h3>Milestone 3</h3>
               <br></br>
@@ -183,6 +200,8 @@ export default function Voad() {
                 <source src={Milestone3} type="audio/mpeg" />
                 Your browser does not support the audio element.
               </audio>
+              <br></br>
+              <a className="journey" href='https://creator.voiceflow.com/prototype/643d59c9c1b2fb88d4073e40'>Full VoiceFlow Interaction</a>
             </div>
           </div>
 
