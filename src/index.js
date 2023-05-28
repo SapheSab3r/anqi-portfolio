@@ -4,8 +4,7 @@ import App from './App';
 import AboutPage from './pages/AboutPage'
 import PvsZ from './pages/PvsZ';
 import Steppie from './pages/Steppie'
-import WebsiteV2 from './pages/WebsiteV2'
-import WebsiteV1 from './pages/WebsiteV1'
+import Website from './pages/Website'
 import Tetris from './pages/Tetris'
 import Voad from './pages/Voad'
 
@@ -35,18 +34,14 @@ const router = createBrowserRouter([
   },
   {
     path: "/project/3",
-    element: <WebsiteV1 />,
+    element: <Website />,
   },
   {
     path: "/project/4",
-    element: <WebsiteV2 />,
-  },
-  {
-    path: "/project/5",
     element: <Steppie />,
   },
   {
-    path: "/project/6",
+    path: "/project/5",
     element: <Voad />,
   },
 

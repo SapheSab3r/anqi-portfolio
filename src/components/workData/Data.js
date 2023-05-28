@@ -21,26 +21,16 @@ const GalleryData = [
     },
     {
         id: 3,
-        title: "Personal Website V1",
-        image: 'img/websiteV1.png',
-        year: "Mar.2022 - Apr.2022",
+        title: "Personal Website",
+        image: 'img/website.png',
+        year: "Mar.2022 - Current",
         role: ["Front end developer", "UI Designer"],
         type: ["Website", "UI/UX"],
         tag:["UI Design", "Website Design"],
-        desc: "First iteration of my website built with HTML, CSS & JS and hosted on Github."
+        desc: "First iteration of my website built with ReactJS, SCSS & JS and hosted on Netlify."
     },
     {
         id: 4,
-        title: "This Website",
-        image: "img/websiteV2.png",
-        year: "Jan.2023 - Present",
-        role: ["Front-end developer", "UI Designer", "Back-end developer"],
-        type: ["Website", "UI/UX"],
-        tag:["UI Design"],
-        desc: "Version 2 of my portfolio website built with ReactJS."
-    },
-    {
-        id: 5,
         title: "Steppie UI Design",
         image: "img/Steppie.jpg",
         year: "Mar.2022 - Apr.2022",
@@ -50,7 +40,7 @@ const GalleryData = [
         desc: "Designed a Pittsburgh Mascot & a potential mobile app for usage."
     },
     {
-        id: 6,
+        id: 5,
         title: "VOAD",
         image: "img/VOAD.png",
         year: "Mar.2023 - Apr.2023",
