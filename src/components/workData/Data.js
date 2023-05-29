@@ -2,7 +2,7 @@ const GalleryData = [
     {
         id: 1,
         title: "Plants vs. Zombie Clone",
-        image: 'img/PvsZ.jpg',
+        image: 'img/PvsZ.png',
         year: "Jun.2021 - Jul.2021",
         role: ["Back-end developer"],
         type: ["Coding"],
@@ -12,7 +12,7 @@ const GalleryData = [
     {
         id: 2,
         title: "Tetris Clone",
-        image: 'img/tetris.jpg',
+        image: 'img/tetris.png',
         year: "Jun.2021 - Jul.2021",
         role: ["Back-end developer"],
         type: ["Coding"],
