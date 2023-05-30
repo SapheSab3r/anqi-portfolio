@@ -2,6 +2,9 @@ import React, { useEffect } from 'react'
 import { useLocation } from "react-router-dom";
 import Navbar from '../components/navbar/Navbar';
 import './AllProjects.scss'
+import Code from '../images/Tetris/code.png';
+import Example from '../images/Tetris/example.png';
+import Rotation from '../images/Tetris/rotation.gif';
 
 
 export default function Tetris() {
@@ -44,12 +47,21 @@ export default function Tetris() {
         <hr></hr>
         <div className="body-container">
           <div className="body-left">
-            <h2 className="left-heading">Overview.</h2>
+            <h2 className="left-heading">Design Overview.</h2>
           </div>
 
           <div className="body-right">
             <div className="para">
-              <p>For this project, I made a simple Tetris game using only Python and the library package provided by CMU. </p>
+              <p>The Tetris game I developed employs Python in tandem with the CMU library package. The fundamental objective of Tetris is to strategically place the falling pieces to complete horizontal rows, which then disappear from the game board, awarding points to the player. This design encompasses two primary elements: the game board and the falling pieces. </p>
+              <br></br>
+              <p>The game board is a grid of cells, initially all colored blue to denote that they are empty. Each falling piece is distinctively colored for differentiation and is overwritten on this board. The falling pieces become part of the board when they can no longer fall (either by reaching the board's bottom or colliding with a previously placed piece), and it becomes an integrated part of the board. </p>
+              <br></br>
+              <p>The falling pieces are represented as two-dimensional lists of Boolean values, each indicating whether a given cell forms part of the tetromino. As an example, the 'S' piece might be defined as follows:
+              </p>
+              <img id="ex-img" src={Example} alt="Example of a 2-d array list representation of 'S'" />
+              <p>This depiction signifies that this specific piece spans two rows and three columns. </p>
+              <br></br>
+              <p>Alongside the game board and the falling piece elements, interactive keyboard functionalities also form an essential part of the design. These include restarting the game at any moment by pressing 'r', pausing gameplay with 'p', and using arrow keys for the directional maneuvering and rotational adjustment of falling pieces.</p>
             </div>
           </div>
         </div>
@@ -57,12 +69,24 @@ export default function Tetris() {
         <hr></hr>
         <div className="body-container">
           <div className="body-left">
-            <h2 className="left-heading">Planning.</h2>
+            <h2 className="left-heading">Highlight.</h2>
           </div>
 
           <div className="body-right">
             <div className="para">
-              <p>Prior to initiating the coding phase, I developed a comprehensive plan for this game. This plan encapsulated various crucial elements such as potential characters, requisite assets, an effective file structure, and basic logistical considerations.</p>
+              <p>A significant challenge I encountered during the development of this game was the implementation of an algorithm to manage the rotation of each falling piece. My approach to resolving this was to assign a number to each grid cell and carefully observe the behavior of the piece rotation in existing versions of the Tetris game. I noticed that each piece rotates 90 degrees counterclockwise each time. To reflect this transformation programmatically, two aspects of the falling piece needed to be updated: its dimensions and its structure.
+              </p>
+              <br></br>
+              <p>The dimensions of the piece involve the number of rows and columns it spans. A rotation swaps these quantities - for instance, an original piece covering a 2x3 area (2 rows by 3 columns) will transform into a piece spanning a 3x2 area (3 rows by 2 columns) after a single rotation, as illustrated below.
+              </p>
+
+              <div className="gif">
+                <img src={Rotation} alt="Gif example of using identifiers on the grid of the piece to find the algorithm" />
+              </div>
+
+              <p>
+                The second requirement, updating the structure of the peace, involves identifying the old row and column of each cell and determining their new positions post-rotation. By assigning a unique identifier to each cell and observing the positional shift of these identifiers after rotation, I found a calculation method for the new row and column. This finding allowed me to successfully integrate the rotation feature into the game.
+              </p>
 
             </div>
           </div>
@@ -76,9 +100,9 @@ export default function Tetris() {
 
           <div className="body-right">
             <div className="para">
-              <p>Presented below are select code excerpts from the project. These include functions dedicated to monitoring mouse interaction with the game board, checking and updating the status of the 'potatobomb' upon contact with a zombie, as well as a timer function. This timer function continuously checks for collisions between zombies and plants, updating their respective statuses across all rows and columns. Each of these functions plays an integral role in ensuring smooth gameplay mechanics, contributing to the overall user experience.</p>
-
-
+              <p>Presented below are select code excerpts from this project.</p>
+              <br></br>
+              <img className="code-img" src={Code} alt="Code Snippets" />
             </div>
           </div>
         </div>

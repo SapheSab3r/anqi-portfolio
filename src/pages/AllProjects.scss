@@ -105,6 +105,21 @@ $dark: rgba(0, 0, 0, 0.85);
             font-size: 24px;
             font-weight: 560;
         }
+
+        .gif {
+            display: flex;
+            height: auto;
+            justify-content: center;
+            border-radius: 2px;
+            align-items: center;
+            margin-top: 1.8rem;
+            margin-bottom: 1.8rem;
+
+            img{
+                width: 30%;
+            }
+        }
+        
     }
 }
 
@@ -126,17 +141,25 @@ $dark: rgba(0, 0, 0, 0.85);
     border-radius: 2px;
 }
 
-.journey{
+#ex-img {
+    display: flex;
+    width: 50%;
+    height: auto;
+    border-radius: 2px;
+}
+
+
+.journey {
     color: #55A99F;
 }
 
-#m012{
+#m012 {
     width: 40%;
     height: auto;
     border-radius: 2px;
 }
 
-#prototype{
+#prototype {
     width: 115%;
     height: auto;
     border-radius: 2px;
