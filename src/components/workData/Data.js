@@ -11,7 +11,7 @@ const GalleryData = [
     },
     {
         id: 2,
-        title: "Tetris Clone",
+        title: "Tetris",
         image: 'img/tetris.png',
         year: "Jun.2021 - Jul.2021",
         role: ["Back-end developer"],

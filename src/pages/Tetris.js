@@ -110,7 +110,7 @@ export default function Tetris() {
         <hr></hr>
         <div className="body-container">
           <div className="body-left">
-            <h2 className="left-heading">Video Demo.</h2>
+            <h2 className="left-heading">Demo.</h2>
           </div>
 
           <div className="body-right">
@@ -129,8 +129,6 @@ export default function Tetris() {
 
           <div className="body-right">
             <div className="para">
-              <p>Embarking on my first coding project, I found the practical application for my Python knowledge in the creation of a game. I also noticed the importance of initial planning, including the setup of the file structure and defining character interactions.</p>
-              <br></br>
               <p>A significant challenge encountered during the implementation phase was the trajectory algorithm for the Kernel-pulp and the Cattail projectiles. This proved complex due to the need to continuously monitor their collision status with the oncoming zombies. Initially, I used the projectile motion formula, but found it inadequate during integration testing. The crux of the problem lay in the delay between the bullet launch and its point of impact on the moving zombie. To overcome this, I found an alternative solution that instead aimed the projectile towards a point several units ahead of the incoming zombie. This adjustment allowed the zombie to advance into the path of the projectile, thus ensuring successful hits. The implementation of this corrective measure markedly improved the effectiveness of the Cattail and Kernel-pult attacks.</p>
               <br></br>
               <p>Reflecting on the final product, I am pleased with my first game development. Nevertheless, I recognize the potential improvements for this game. For example, the incorporation of animations for all characters could significantly enrich the interactivity and user experience. This might require storing a series of images for each character in an array and developing an animation function to cycle through them. The timer function would then continually run these animation functions, thereby introducing dynamic elements into the game.</p>
