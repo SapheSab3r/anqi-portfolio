@@ -119,6 +119,18 @@ $dark: rgba(0, 0, 0, 0.85);
                 width: 30%;
             }
         }
+
+        .demo-gif {
+            display: flex;
+            height: auto;
+            justify-content: center;
+            border-radius: 2px;
+            align-items: center;
+            margin-top: 1.8rem;
+            margin-bottom: 1.8rem;
+            padding-left: 10rem;
+
+        }
         
     }
 }

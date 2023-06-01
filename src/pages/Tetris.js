@@ -5,6 +5,7 @@ import './AllProjects.scss'
 import Code from '../images/Tetris/code.png';
 import Example from '../images/Tetris/example.png';
 import Rotation from '../images/Tetris/rotation.gif';
+import Demo from '../images/Tetris/demo.gif';
 
 
 export default function Tetris() {
@@ -62,6 +63,29 @@ export default function Tetris() {
               <p>This depiction signifies that this specific piece spans two rows and three columns. </p>
               <br></br>
               <p>Alongside the game board and the falling piece elements, interactive keyboard functionalities also form an essential part of the design. These include restarting the game at any moment by pressing 'r', pausing gameplay with 'p', and using arrow keys for the directional maneuvering and rotational adjustment of falling pieces.</p>
+
+              <br></br>
+              <h3>Keyboard features</h3>
+              <h4>'Space'</h4>
+              <p>
+                Hard Drop - hitting the space bar immediately drops a piece as far as it can go and places it on the board
+              </p>
+              <h4>'Left/Right' Arrow Key</h4>
+              <p>
+                Moving the direction of the falling piece to the left or right
+              </p>
+              <h4>'Down' Arrow Key</h4>
+              <p>
+                Moving the falling piece one step down
+              </p>
+              <h4>'p' Key</h4>
+              <p>
+                Pausing or unpausing the game
+              </p>
+              <h4>'r' Key</h4>
+              <p>
+                Restarting the game
+              </p>
             </div>
           </div>
         </div>
@@ -115,6 +139,9 @@ export default function Tetris() {
 
           <div className="body-right">
             <div className="para">
+              <div className="demo-gif">
+                <img src={Demo} alt="Demo gif of the tetris game" />
+              </div>
 
             </div>
           </div>
